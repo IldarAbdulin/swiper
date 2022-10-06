@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right top, #0b2e66, #342a68, #4f2466, #671a5f, #7a0953);
+}
+
+.swiper {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.swiper .swiper-slide img {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.swiper .swiper-pagination-fraction {
+  font-size: 16px;
+  color: #fff;
+}
+.swiper .swiper-pagination-progressbar-fill {
+  background: #f2f2f2;
+}
+.swiper .swiper-scrollbar-drag {
+  cursor: pointer;
+  background: #fff;
+}/*# sourceMappingURL=style.css.map */
